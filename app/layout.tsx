@@ -5,7 +5,10 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
-  title: "Lyne",
+title: {
+    default: "Lyne",
+    template: "Lyne",
+  },
   description: "By Hedi Fourati",
   icons: {
     shortcut: "/favicon.png",
