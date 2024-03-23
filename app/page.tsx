@@ -18,6 +18,9 @@ export default function Home() {
         <h2 className="text-sm text-zinc-500 ">
           Je t'aimeee.... By Hedi Fourati
         </h2>
+        <button onclick="alert("JE T\'AIME LYNEEEEEE")">
+          Click me
+        </button>
       </div>
     </div>
   );
